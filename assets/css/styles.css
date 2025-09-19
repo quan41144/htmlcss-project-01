@@ -37,7 +37,7 @@ a {
 }
 .line-clamp {
     display: -webkit-box;
-    --webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-line-clamp: var(--line-clamp, 2);
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -508,6 +508,9 @@ a {
     justify-content: center;
     width: 28px;
     height: 28px;
+}
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 .footer .social-link:hover {
     background-color: #f1efef;
